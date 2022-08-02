@@ -20,15 +20,31 @@ h1{
     letter-spacing: 2px;
 }
 
+h1:hover{
+    color: white;
+    text-shadow: 2px 4px 2px rgb(149, 51, 149);
+}
+
+h2:hover{
+    background-color: rgb(202, 37, 208);
+    border-radius: 10px;
+    color: rgb(246, 243, 247);
+   
+}
+
 #imgPoke{
     height: 200px;
     margin: 50px;
 }
 
 #namePoke{
-    color: black;
     text-transform: capitalize;
     font-size: 30px;
+    padding: 10px;
+}
+
+#forms input:hover{
+    cursor:pointer;
 }
 
 #forms{
@@ -47,5 +63,5 @@ h1{
 
 #forms button:active{
     background-color: rgb(231, 2, 235);
-    font-size: 15px ;
+    font-size: 13px ;
 }
