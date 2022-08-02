@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background: linear-gradient(to bottom , violet,pink ,white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+h1{
+    font-size: 250%;
+    letter-spacing: 2px;
+}
+
+#imgPoke{
+    height: 200px;
+    margin: 50px;
+}
+
+#namePoke{
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+#forms{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+#forms button{
+    background-color: black;
+    border-radius: 4px;
+    padding: 2px 10px;
+    color: wheat;
+}
+
+
+#forms button:active{
+    background-color: rgb(231, 2, 235);
+    font-size: 15px ;
+}
