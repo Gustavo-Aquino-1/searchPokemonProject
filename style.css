@@ -12,6 +12,14 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 90px;
+}
+
+#pokeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 70px;
 }
 
@@ -64,4 +72,32 @@ h2:hover{
 #forms button:active{
     background-color: rgb(231, 2, 235);
     font-size: 13px ;
+}
+
+#dark{
+    align-self: end;
+}
+
+@media screen and (max-width:500px) {
+    #pokeContainer{
+        gap: 50px;
+        text-align: center;
+    }
+
+    #forms{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #imgPoke{
+        height: 150px;
+    }
+
+    #namePoke{
+        font-size: 20px;
+    }
 }
