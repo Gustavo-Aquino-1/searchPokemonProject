@@ -23,7 +23,7 @@ const renderPokemon = async (pokemon) => {
         imgPokemon.src = pokemonObj['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
     }else{
         namePokemon.innerText = 'Not Found :('
-        imgPokemon.src = '../imgs/pokeWord.png'
+        imgPokemon.src = 'https://i.pinimg.com/originals/9e/39/23/9e3923825ba4a4fa967858f980b8460f.png'
     }
     input.value = ''
 }
